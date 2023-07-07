@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KVTOP.uz</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .foto::before {
+            content: '';
+            position: absolute;
+            z-index: 98;
+            bottom: -40px;
+            left: -40px;
+            width: 260px;
+            height: 260px;
+            background-image: url('https://quomodosoft.com/html/glint/assets/img/about/about-shape.svg');
+        }
+
+        .foto {
+            background-image: url('image/about-bg-shape.png');
+        }
+
+        body {
+            background-image: url('image/header_body.jpg');
+            background-repeat: no-repeat;
+            
+        }
+        h1,
+        h2,
+        h3{
+            letter-spacing: 1px !important;
+        }
+        .logo h1{
+            font-size: 32px !important;
+        }
+        .slide .text{
+            margin-top: 50px;
+        }
+        .one_slide img{
+            height: 350px;
+
+        }
+        .log{
+            text-shadow: 1px 2px 4px #14ea14;
+            size: 25px;
+        }
+        .lolo{
+            transform: translate(0,0px) !important;
+        }
+        .low{
+            transform: translate(0,0px) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sharpa">
+
+    </div>
+    <div class="top_icon">
+        <i class="btn fal fa-angle-double-up"></i>
+    </div>
+    <div class="right_menu_face">
+        <div class="flex">
+            <div><img src="image/logo.png" alt="logo"></div>
+            <div id="btn_back" ><i class="btn vs fal fa-times"></i></div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat fuga debitis illo sunt, delectus laudantium
+             laborum? Magni odit
+             repudiandae nostrum exercitationem, quam quaerat numquam
+              temporibus deleniti deserunt hic eius dolorum eum sed 
+              nisi est, iusto in iste
+             . Odit, praesentium sunt. Deserunt necessitatibus quidem 
+             iure, sequi architecto quos animi laudantium tenetur quam 
+             de eius, eveniet
+              perspiciatis voluptatibus enim 
+        </p>
+        <div class="icons_ ">
+            <i  class="btn fab fa-facebook-f"></i>
+            <i class="btn fab fa-instagram"></i>
+            <i class="btn fab fa-twitter"></i>
+            <i class="btn fab fa-linkedin-in"></i>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="top_navbar">
+            <div class="cantainer">
+                <div class="flex">
+                    <div class="flex">
+                        <div class="btn-icon"><i class="fal fa-comments-alt"></i></div>
+                        <p class="anic">qidirganigizni albata topasiz...</p>
+                        <div class="icon_top_nav hover_green">
+                            <i class="fal fa-arrow-left"></i>
+                            <i class="fal fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="flex hover_green">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <div class="btn-icon"><i class="fal fa-angle-double-right"></i><a href="#">bog'lanish</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="navbar_list ">
+        <button class="btn" id="menu" onclick="many()">
+            <i class="fal fa-bars"></i>
+        </button>
+        <div class="cantainer">
+            <nav>
+                <div class="flex">
+                    <div class="logo"><h1 class="log">KVTOP.uz</h1></div>
+                    <div class="list ">
+                        <ul class="flex">
+                            <div class="flex icontop">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <p onclick="many()"><strong>Close</strong></p>
+                            </div>
+                            <div class="dropdown">
+                                <li class="dropbtn"><a class="active" href="#">HOME</a>
+                                    <div class="dropdown_contend">
+                                        <ul>
+                                            <li><a href="">Home page 1</a></li>
+                                            <li><a href="">Home page 2</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                            <li><a class="a" href="#">ABOUT</a></li>
+                            <li><a class="a" href="#">SERVICE</a></li>
+                            <li><a class="a" href="#">PORTFOLIO</a></li>
+                            <div class="dropdown">
+                                <li class="dropbtn "><a class="a" href="#">PAGES</a>
+                                    <div class="dropdown_contend">
+                                        <ul>
+                                            <li><a href="#">ABOUT</a></li>
+                                            <li><a href="#">PORTFOLIO</a></li>
+                                            <li><a href="#"> PORTFOLIO DETAILS</a></li>
+                                            <li><a href="#">BLOG</a></li>
+                                            <li><a href="#">SINGLE BLOG</a></li>
+                                            <li><a href="#">CONTACT US</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                            <li class="srk"><i class="fas fa-search"></i><input type="search" placeholder="Search">
+                            </li>
+                            <li class="led_down"><i class="fas fa-list"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>    
+        <div class="users">
+            <div class="cantainer">
+                <div class="slide">
+                    <ul>
+                        <li class="">
+                            <div class="flex">
+                                <div class="text push">
+                                    <h1><code class="green">Istalgan </code> turdagi <br> mehmonxonalarni
+                                        topishingiz mumkun</h1>
+                                    <div class="parag">
+                                        <p>eng tez va eng ishonchli xizmatlar faqat bizda <br>izlang va toping
+                                             </p>
+                                    </div>
+                                    <button onclick="item()" class="btn">
+                                        <p>izlashni boshlang<i class="far fa-chevron-right"></i></p>
+                                    </button>
+                                </div>
+                                <div class="person">
+                                    <div class="button">
+                                        <button class=" btn1 col"><b>01</b></button>
+                                        <button class=" btn2 "><b>02</b></button>
+                                    </div>
+                                    <img class="lolo" src="image/xona (7).jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="opac">
+                            <div class="flex">
+                                <div class="text push">
+                                    <h1><code class="green">Istalgan </code> turdagi <br> mehmonxonalarni
+                                        topishingiz mumkun</h1>
+                                    <div class="parag">
+                                        <p>eng tez va eng ishonchli xizmatlar faqat bizda <br>izlang va toping
+                                        </p>
+                                    </div>
+                                    <button onclick="item()" class="btn">
+                                        <p>izlashni boshlang<i class="far fa-chevron-right"></i></p>
+                                    </button>
+                                </div>
+                                <div class="person">
+                                    <div class="button">
+                                        <button class=" button1 "><b>01</b></button>
+                                        <button class=" btn2 col"><b>02</b></button>
+                                    </div>
+                                    <img class="low" src="image/xona (5).jpg">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    <div class="relas">
+        <div class="absolut">
+        </div>
+    </div>
+    <main id="main">
+
+        <section class="user_link">
+            <div class="cantainer">
+                <div class="flex">
+                    <div class="foto">
+                        <div class="animation_gif">
+                            <!-- <img src="image/NSlc.gif" alt=""> -->
+                        </div>
+                        <img src="image/xona (1).jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>eng hamyonbop<br>mehmonxonalar faqar <code class="green">kvtop.uz da</code></h1>
+                        <div class="parag">
+                            <p>Spend more time focusing on the important aspects of your business. Turn to McCartney HR
+                                LLC in Brooklyn, NY for HR solutions. As an advanced virtual HR company, we are offering
+                                online HR systems that can be customized depending on your business needs.</p>
+                        </div>
+                        <button class="btn">
+                            <p>buyurtma berish <i class="far fa-chevron-right"></i></p>
+                        </button>
+                    </div>
+                </div>
+                <div class="bulinma">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>MY EXPERIENCE</strong></p>
+                            <h1>ishonch sizdan xizmat <code class="green">bizdan</code></h1>
+
+                        </div>
+                        <div class="parag">
+                            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit,
+                                Error Qui Enim Sit Ex Provident</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="boxs">
+                    <div class="flex">
+                        <div>
+                            <p><strong>tanishing</strong></p>
+                            <h2 class="green">Ark Mehmonxonasi</h2>
+                            <p>Ikkita alohida to'shakli ikki kishilik standart xona x 
+                                500 000 UZS</p>
+                        </div>
+                        <div>
+                            <p><strong>tanishing</strong></p>
+                            <h2 class="green">Diamond Mehmonxonasi</h2>
+                            <p>Ikkita alohida to'shakli ikki kishilik standart xona x 
+                                700 000 UZS</p>
+                        </div>
+                        <div>
+                            <p><strong>tanishing</strong></p>
+                            <h2 class="green">sterk Mehmonxonasi</h2>
+                            <p>Ikkita alohida to'shakli ikki kishilik standart xona x 
+                                1000 000 UZS</p>
+                        </div>
+                        <div>
+                            <p><strong>tanishing</strong></p>
+                            <h2 class="green">Comfort  Mehmonxonasi</h2>
+                            <p>Ikkita alohida to'shakli ikki kishilik standart xona x 
+                                400 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="foiz">
+                    <div class="flex">
+                        <div>
+                            <img src="image/xona (10).jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="image/xona (11).jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="image/xona (5).jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="image/xona (6).jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bulinma two">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>siz uchun</strong></p>
+                            <h1>o'z mehmonxonangizni  <code class="green">ruyhatdan o'tkazing</code></h1>
+
+                        </div>
+                        <div class="parag">
+                            <p>sizning kvartira egasi bilan buladigan turli muamolarga biz javob bermaymiz biz shunchaki taklif etamiz</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cantainer">
+                <div class="theree_flex">
+                    <div class="flex">
+                        <div class="cantent">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service1.svg" alt="">
+                                <h2 class="green">Studentlar uchun</h2>
+                                <p>Ozingizga maqul kvartirani toping va u bilan tanishib chiqing rasmlarini ko'ring maqul kelsagina uy egasi bilan bo'laning</p>
+                            </div>
+                        </div>
+                        <div class="cantent markaz">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service2.svg" alt="">
+                                <h2 class="green">Oilalilar uchun</h2>
+                                <p>Ozingizga maqul kvartirani toping va u bilan tanishib chiqing rasmlarini ko'ring maqul kelsagina uy egasi bilan bo'laning</p>
+                            </div>
+                        </div>
+                        <div class="cantent">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service3.svg" alt="">
+                                <h2 class="green">qizlar uchun</h2>
+                                <p>Ozingizga maqul kvartirani toping va u bilan tanishib chiqing rasmlarini ko'ring maqul kelsagina uy egasi bilan bo'laning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bulinma two">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>siz uchun</strong></p>
+                            <h1>faqat yoqanini  <code class="green">tanlang</code></h1>
+
+                        </div>
+                        <div class="parag flex">
+                            <p>sizning kvartira egasi bilan buladigan turli muamolarga biz javob bermaymiz biz shunchaki taklif etamiz</p>
+                                <div class="slide_btn flow">
+                                    <div><i id="back"  class="btn fal fa-arrow-left"></i></div>
+                                    <div><i id="next" class="btn fal fa-arrow-right"></i></div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="slide_list">
+            <div class="slide_ruyxat">
+                <div class="cantainer">
+                    <div class="boox flex">
+                        <div class="one_slide">
+                            <img src="image/xona (9).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (8).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (7).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (6).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (5).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (3).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (11).jpg" alt="">
+                        </div>
+                        <div class="one_slide">
+                            <img src="image/xona (10).jpg" alt="">
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="cantainer">
+                <div class="bulinma two top ">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>siz uchun</strong></p>
+                            <h2> diqqat bilan <code class="green">o'qing</code></h2>
+
+                        </div>
+                        <div class="parag flex">
+                            <p>sizning kvartira egasi bilan buladigan turli muamolarga biz javob bermaymiz biz shunchaki taklif etamiz</p>
+                            <div class="slide_btn flow">
+                                <i  class="btn fal fa-arrow-left"></i>
+                                <i  class="btn fal fa-arrow-right"></i>
+                            </div>
+    
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="user_img">
+                    <div class="flex">
+                        <img src="image/testimonial1.jpg" alt="">
+                        <div class="text">
+                            <h1 class="green">,,</h1>
+                            <h2>sizning kvartira egasi bilan buladigan turli muamolarga biz javob bermaymiz biz shunchaki taklif etamiz</h2>
+                            <p>ko'rasiz sizga yoqsagina bog'lanasiz uy egasi bilan qanday kelishish sizning qo'lingizda</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bulinma two top">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>SIZ UCHUN</strong></p>
+                            <h1>MAQULINI <code class="green">TANLANG</code></h1>
+
+                        </div>
+                        <div class="parag">
+                            <p>sizning kvartira egasi bilan buladigan turli muamolarga biz javob bermaymiz biz shunchaki taklif etamiz</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cantainer">
+                <div class="theree_flex new">
+                    <div class="flex">
+                        <div class="cantent">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service1.svg" alt="">
+                                <h2 class="green">ENG ARZON </h2>
+                                <p>Bu narx sizga qulaymi</p>
+                                <hr style="width: 100%;margin: 20px 0; height: 1px;">
+                                <h1 class="green">$30</h1>
+                                <p>Per Month</p>
+                                <button  class="btn">
+                                    <p>o'tish<i class="far fa-chevron-right"></i></p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cantent markaz">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service2.svg" alt="">
+                                <h2 class="green">O'RTACHA</h2>
+                                <p>Bu narx sizga qulaymi</p>
+                                <hr style="width: 100%;margin: 20px 0; height: 1px;">
+                                <h1 class="green">$35</h1>
+                                <p>Per Month</p>
+                                <button  class="btn">
+                                    <p>o'tish<i class="far fa-chevron-right"></i></p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cantent">
+                            <div class="wow">
+                                <img src="https://quomodosoft.com/html/glint/assets/img/icon/service3.svg" alt="">
+                                <h2 class="green">YUQORI</h2>
+                                <p>Bu narx sizga qulaymi</p>
+                                <hr style="width: 100%;margin: 20px 0; height: 1px;">
+                                <h1 class="green">$50</h1>
+                                <p>Per Month</p> 
+                                <button  class="btn">
+                                    <p>o'tish<i class="far fa-chevron-right"></i></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="bulinma two">
+                    <div class="flex">
+                        <div class="text">
+                            <p class="green"><strong>WHAT WE DO</strong></p>
+                            <h1>SERVICES AND <code class="green">SOLUTIONS</code></h1>
+
+                        </div>
+                         <div class="parag flex">
+                            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit,
+                                Error Qui Enim Sit Ex Provident</p>
+                                <div class="slide_btn flow">
+                                    <i id="orqaga"  class="btn fal fa-arrow-left"></i>
+                                    <i id="oldinga" class="btn fal fa-arrow-right"></i>
+                                </div>
+                        </div> 
+
+                    </div>
+                </div>     -->    
+            <!-- sungi slayd shou  -->
+                <!-- <div class="footer_slider">
+                    <div class="flex slider_foo">
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__1.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Addiction When Gambling Becomes...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__2.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Hypnosis 12 Steps To Acquire Mind Power...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__3.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Harness The Power Of Your Dreams...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__1.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Addiction When Gambling Becomes...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__2.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Hypnosis 12 Steps To Acquire Mind Power...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="flex">
+                                <img src="image/team__3.png" alt="fotos">
+                                <div class="text">
+                                    <p>September 28, 2019</p>
+                                    <h2>Harness The Power Of Your Dreams...</h2>
+                                    <div class="links">
+                                        <i class="fal fa-arrow-right"></i>
+                                        <a href="">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+            <div class="cantainer">
+                <div class="center">
+                    <div class="flex">
+                        <p class="green"><strong>  DIQQAT</strong></p>
+                        <h1>Bizning saytga mehmonhonasini joylashtirmoqchi bo'lganlar <br> BIZ BILAN <span class="green"> BOG'LANING !</span></h1>
+                        <div class="in flex">
+                            <input type="search" placeholder="Enter Your Email..">
+                            <button class="btn">
+                                <p>SUBSCRIBE<i class="fal fa-comments-alt"></i></p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="cantainer">
+            <div class="flex ime">
+                <img src="image/01.png" alt="">
+                <img src="image/02.png" alt="">
+                <img src="image/03.png" alt="">
+                <img src="https://quomodosoft.com/html/glint/assets/img/logo/1.svg" alt="">
+                <img src="image/01.png" alt="">
+            </div>
+            <div class="foo_text">
+                <ul class="flex">
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">CAREER</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                </ul>
+                <p><small>COPYRIGHT © 2023 BY <span class="green"> DIAMOND </span> sarvarbek isroilov Induvidual loyiha</small></p>    
+            </div>
+        </div>
+    </footer>
+
+    <script src="file.js"></script>
+
+</body>
+
+</html>
